@@ -9,7 +9,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsc && esbuild src/PluralityWallet.tsx --bundle --format=esm --outfile=dist/bundle.js --external:react --external:react-dom",
+        "build": "tsc && esbuild src/PluralityWallet.tsx --bundle --format=esm --outfile=dist/bundle.js --external:react --external:react-dom --loader:.tsx=tsx",
         "prepare": "npm run build"
     },
     "peerDependencies": {
