@@ -4,7 +4,7 @@ const App = () => {
     return (
         <div>
             <PluralityWallet
-                clientId="d7e2d97e-d104-498e-a9c3-4b14a9cf8943"
+                clientId=""
                 text="ahdkj"
                 onLogin={() => {
                     console.log("login");
